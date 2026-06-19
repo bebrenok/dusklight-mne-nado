@@ -4769,7 +4769,7 @@ int daAlink_c::setStartProcInit() {
         } else {
             procAutoJumpInit(1);
         }
-        mNormalSpeed = 55.0f;
+        mNormalSpeed = 25.0f;
         speed.y = 0.0f;
     } else if (checkCanoeStart()) {
         procCanoeJumpRideInit(NULL);
