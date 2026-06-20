@@ -4769,7 +4769,7 @@ int daAlink_c::setStartProcInit() {
         } else {
             procAutoJumpInit(1);
         }
-        mNormalSpeed = 25.0f; // забыл включить актионс
+        mNormalSpeed = 0.0f; // забыл включить актионс
         speed.y = 0.0f;
     } else if (checkCanoeStart()) {
         procCanoeJumpRideInit(NULL);
